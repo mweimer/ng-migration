@@ -1,0 +1,4 @@
+<h1>Speakers</h1>
+<div *ngFor="let speaker of speakers | async">
+    <md-speaker-display [speakerData]="speaker"></md-speaker-display>
+</div>

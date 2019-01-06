@@ -1,0 +1,6 @@
+<h1>Sessions</h1>
+<ul>
+    <li *ngFor="let session of sessions | async" [mdShowSessionDetails]="session">
+      <md-session-display [session]="session" (selectionUpdated)="selectionMade($event)"></md-session-display>
+    </li>
+</ul>

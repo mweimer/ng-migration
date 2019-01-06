@@ -1,0 +1,6 @@
+<h1>Sessions</h1>
+<ul>
+    <li ng-repeat="session in $ctrl.sessions" md-show-session-details>
+      <md-session-display session="session" selection-updated="$ctrl.selectionMade(session)"></md-session-display>
+    </li>
+</ul>

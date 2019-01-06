@@ -1,0 +1,62 @@
+{
+  "name": "ng-migration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mweimer/ng-migration.git"
+  },
+  "homepage": "https://github.com/mweimer/ng-migration#readme",
+  "devDependencies": {
+    "@angular-builders/custom-webpack": "7.1.1",
+    "@angular-builders/dev-server": "7.1.1",
+    "@angular-devkit/build-angular": "0.11.0",
+    "@angular/cli": "7.1.4",
+    "@angular/compiler-cli": "7.1.4",
+    "@angular/language-service": "7.1.4",
+    "@types/angular": "1.6.52",
+    "@types/angular-mocks": "1.7.0",
+    "@types/jasmine": "2.8.8",
+    "@types/jasminewd2": "2.0.3",
+    "@types/node": "8.9.4",
+    "angular-mocks": "1.7.5",
+    "codelyzer": "4.5.0",
+    "jasmine-core": "2.99.1",
+    "jasmine-spec-reporter": "4.2.1",
+    "karma": "3.1.1",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coverage-istanbul-reporter": "2.0.1",
+    "karma-jasmine": "1.1.2",
+    "karma-jasmine-html-reporter": "0.2.2",
+    "ng-annotate-loader": "0.6.1",
+    "ng-annotate-patched": "1.7.0",
+    "ts-node": "7.0.0",
+    "tslint": "5.11.0",
+    "typescript": "3.1.6"
+  },
+  "dependencies": {
+    "@angular/animations": "7.1.4",
+    "@angular/common": "7.1.4",
+    "@angular/compiler": "7.1.4",
+    "@angular/core": "7.1.4",
+    "@angular/forms": "7.1.4",
+    "@angular/platform-browser": "7.1.4",
+    "@angular/platform-browser-dynamic": "7.1.4",
+    "@angular/router": "7.1.4",
+    "@angular/upgrade": "7.1.4",
+    "@uirouter/angular-hybrid": "6.0.2",
+    "angular": "1.7.5",
+    "angular-sanitize": "1.7.5",
+    "core-js": "2.5.4",
+    "rxjs": "6.3.3",
+    "tslib": "1.9.0",
+    "zone.js": "0.8.26"
+  }
+}
